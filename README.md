@@ -1,5 +1,3 @@
-![Code for Baltimore](/docs/img/CfB.png)
-
 # Jury Instructions
 Elevator Pitch
 
