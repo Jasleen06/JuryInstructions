@@ -1,5 +1,5 @@
 # Jury Instructions
-Elevator Pitch
+This is a project to assist judges/practitioners fill out criminal pattern jury instructions.
 
 ## Documentation
 For more information about this project and how we're building it please see the `docs` folder 
