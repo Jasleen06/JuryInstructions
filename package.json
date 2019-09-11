@@ -1,0 +1,28 @@
+{
+  "name": "juryinstructions",
+  "version": "1.0.0",
+  "description": "This is a project to assist judges/practitioners fill out criminal pattern jury instructions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForBaltimore/JuryInstructions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeForBaltimore/JuryInstructions/issues"
+  },
+  "homepage": "https://github.com/CodeForBaltimore/JuryInstructions#readme"
+}
