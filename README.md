@@ -8,12 +8,25 @@ For more information about this project and how we're building it please see the
 * [Jury Instructions](/docs/SampleInstructions/)
 
 ## Setup
-What does someone need to do to get started with your project? Do they need to:
-* install software?
-* run some commands?
-* do something else?
+To run this locally the following software is required:
+*  [NodeJs](https://nodejs.org/en/)
 
-In this section of the `README` you should include any information a new contributor or user of the project needs to know to get running locally and setup.
+If on a Mac you can install Node and npm via Homebrew with `brew install node`
+
+### Local server
+To run this application on your local machine you first need to install dependencies.  From the project root, run the following command:
+```shell
+npm install
+```
+
+Once that completes you can run the application by running the following from the project root:
+```shell
+node app/index.js
+```
+
+When that is running you will see a message on your terminal window that says `App listening on port 4000!`. You can now visit the app by going to http://localhost:4000/. 
+
+For now the service will need to be restarted with any code change.
 
 ## Using this product
 How would someone use this product? Give a few examples here.
