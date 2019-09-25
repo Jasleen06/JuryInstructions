@@ -1,16 +1,12 @@
-var express = require('express');
-var app = express();
-var nunjucks = require('nunjucks');
+const express = require("express");
+const config = require("./config");
+const Router = require("./router");
 
-nunjucks.configure('app/views', {
-    autoescape: true,
-    express: app
-});
+let app = express();
 
-app.get('/', function(req, res) {
-    res.render('index.html');
-});
- 
-app.listen(4000, function () {
-  console.log('App listening on port 4000!');
+Router.init(app, config);
+
+app.listen(config.port, () => {
+    // tslint:disable-next-line:no-console
+    console.log(`Worker ${process.pid} running a ${config.env} server listening on port ${config.port}`);
 });
